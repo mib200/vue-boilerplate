@@ -1,0 +1,4 @@
+{
+	"*.{json,md,html,vue,js}": ["npm run lint"],
+	"*.{css,scss}": ["npm run lint:style", "git add", "npm run branch:check"]
+}
